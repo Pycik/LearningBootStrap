@@ -8,9 +8,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>My site</title>
 	<!-- Bootstrap core CSS -->
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,10 +25,10 @@
     <![endif]-->	
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-		<h1>Name Site</h1>
-		<div class="navbar navbar-inverse"> <!-- default (Светлый цвет)(inverse Темный) -->
+<!-- navbar-default (Светлый цвет)(navbar-inverse Темный) -->
+<!-- navbar-fixed-top , navbar-fixed-bottom -->
+		<div class="navbar navbar-inverse navbar-static-top"> 
+
 			<div class="container">
 				<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
@@ -31,23 +37,108 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-					<!-- <div class="navbar-brand" href="#">Name company</div> --> 	<!-- белая подсветка -->
+					 <div class="navbar-brand"><a href="#"><i class="material-icons">pets</i></a></div>  <!-- белая подсветка -->
 				</div>
 				<div class="collapse navbar-collapse" id="responsive-menu">
 					<ul class="nav navbar-nav">			<!-- menu горизонтально(белая подстветка-->
-						<li><a href="#">lesson1</a></li>
-						<li><a href="#">lesson2</a></li>
-						<li><a href="#">lesson3</a></li>
-						<li><a href="#">lesson4</a></li>
+						<li><a href="#">Lesson1</a></li>
+
+						<li class="dropdown" >
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Lesson2 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Day1</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Day2</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Day3</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Day4</a></li>
+							</ul>
+
+						</li>
+						<li><a href="#">Lesson3</a></li>
+						<li><a href="#">Lesson4</a></li>
 					</ul>
 				</div>
 			</div>
-		</div>  
-			
+		</div> 
+
+	<div id="carousel" class="carousel slide">
+		<!--Indicators slides-->
+		<ol class="carousel-indicators">
+			<li class="active" data-target="#carousel" data-slide-to="0"></li>
+			<li data-target="#carousel" data-slide-to="1"></li>
+			<li data-target="#carousel" data-slide-to="2"></li>
+		</ol>
+		<!--slides-->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="img/car2.jpg" alt="">
+				<div class="carousel-caption">
+					<h3>Slide one</h3>
+					<p>Description 1</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/car1.jpg" alt="">
+				<div class="carousel-caption">
+					<h3>Slide Second</h3>
+					<p>Description 2</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/car1.jpg" alt="">
+				<div class="carousel-caption">
+					<h3>Slide 3</h3>
+					<p>Description 3</p>
+				</div>
+			</div>	
 		</div>
+		<!--Стрелки left and right-->
+		<a href="#carousel" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a href="#carousel" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+
 	</div>
 
 
+	<div class="container">
+		<div class="row">
+		
+		<h1> <i class="glyphicon glyphicon-heart "></i>	Name page <i class="glyphicon glyphicon-heart"></i></h1>
+		<h1>
+				<span class="fa-stack fa-2x fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				   <i class="fa fa-facebook fa-stack-1x"></i>
+				</span>
+				<span class="fa-stack fa-lg">
+					 <i class="fa fa-twitter fa-stack-1x"></i>
+					<i class="fa fa-ban fa-stack-2x text-danger"></i>
+				</span>
+				<span class="fa-stack fa-lg">
+					 <i class="fa fa-vk fa-stack-1x"></i>
+					 <i class="fa fa-ban fa-stack-2x text-danger"></i>
+				</span>
+				
+		</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto est.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto est</p>
+			
+ 		</div>
+ 		<div class="row">
+		
+		<h1>
+
+			<i class="fa fa-moon-o fa-spin" ></i> Name page <i class="fa fa-moon-o fa-rotate-180 "></i><i class="fa fa-moon-o fa-rotate-90 " ></i>
+
+		</h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto est.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto est</p>
+			
+ 		</div>
+	</div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 hidden-md ">	<!-- delete if size -sm -lg-->
