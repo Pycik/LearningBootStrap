@@ -8,21 +8,17 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>My site</title>
 	<!-- Bootstrap core CSS -->
-
+	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+	
+	
+	  
   
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->	
 </head>
 <body>
 <!-- navbar-default (Светлый цвет)(navbar-inverse Темный) -->
@@ -102,10 +98,55 @@
   </ul>
 </div>
 
-
 	</div>
 
+		<div class="row">
+				<div class="col-md-6 ">
+					<div class="btn-group dropup">
+						<button class="btn btn-lg btn-info  dropdown-toggle " data-toggle="dropdown" >
+							Active menu <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">lesson 1</a></li>
+							<li><a href="#">lesson 2</a></li>
+							<li><a href="#">lesson 3</a></li>
+							<li><a href="#">lesson 4</a></li>
+							<li><a href="#">lesson 5</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 ">  
+					<div class="btn-group pull-right">
+						<button class="btn btn-lg btn-info  dropdown-toggle " data-toggle="dropdown" >
+							Active menu <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">lesson 1</a></li>
+							<li><a href="#">lesson 2</a></li>
+							<li><a href="#">lesson 3</a></li>
+							<li><a href="#">lesson 4</a></li>
+							<li><a href="#">lesson 5</a></li>
+							
+						</ul>
+					</div>
+					<div class="btn-group  ">
+						<button class="btn btn-danger" >
+							Active menu
+						</button>
+						<button class="btn btn-danger dropdown-toggle "  data-toggle="dropdown"><span class="caret"></span></button>
+						<ul class="dropdown-menu dropdown-menu-right">
+							<li><a href="#">lesson 1</a></li>
+							<li><a href="#">lesson 2</a></li>
+							<li><a href="#">lesson 3</a></li>
+							<li><a href="#">lesson 4</a></li>
+							<li><a href="#">lesson 5</a></li>
+							
+						</ul>
+					</div>
+				</div>
 
+		</div>
 
 
 	<div id="carousel" class="carousel slide">
@@ -119,7 +160,7 @@
 		<div class="carousel-inner">
 			<div class="item active">
 				<img src="img/car2.jpg" alt="">
-				<div class="carousel-caption">
+				<div class="carousel-caption ">
 					<h3>Slide one</h3>
 					<p>Description 1</p>
 				</div>
@@ -147,6 +188,47 @@
 			<span class="glyphicon glyphicon-chevron-right"></span>
 		</a>
 
+	</div>
+	
+
+	
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="tabs">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab-1" data-toggle="tab">Insert 1</a></li>
+						<li><a href="#tab-2" data-toggle="tab">Insert 2</a></li>
+						<li><a href="#tab-3" data-toggle="tab">Insert 3</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active in fade" id="tab-1">
+							<p><b>Insert 1</b>
+							<br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis, accusantium sunt sint aliquid aut odit rerum voluptatum? Eum atque possimus veritatis, laborum voluptatem harum minima delectus, laudantium reiciendis dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis molestias quasi placeat distinctio laborum, maxime dicta possimus nesciunt similique doloribus, praesentium debitis. Ipsa expedita provident modi tempora neque magnam dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni obcaecati, saepe reprehenderit provident vitae tempore, dolores soluta assumenda. Recusandae animi est sit ullam iure, amet. Nam, tempora debitis aliquid ut.
+							</p>
+						</div>
+						<div class="tab-pane fade" id="tab-2" >
+							<p><b>Insert 2</b>
+							<br>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nam commodi facere natus, ullam sapiente molestiae voluptatum, hic pariatur asperiores tempore odio perferendis quae quam aperiam! Aliquid praesentium numquam explicabo?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel recusandae commodi ea explicabo provident perferendis, sint dolore, harum consequatur omnis iusto ratione doloribus rerum molestias suscipit consequuntur sapiente ad nesciunt.
+							</p>
+						</div>
+						<div class="tab-pane fade" id="tab-3">
+							<p><b>Insert 3</b>	
+							<br>
+							   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus perspiciatis laudantium a, adipisci vel necessitatibus, incidunt modi quia,  voluptatum vero laboriosam, obcaecati quidem non sit deserunt id itaque aliquam Inventore magnam aliquam illum, animi cupiditate ut optio officia, quo dolorum ex, earum illo unde ipsum non, ratione aperiam quam veniam. Possimus laboriosam labore, necessitatibus esse, aperiam earum natus  Quasi eius atque eum mollitia nisi nihil, illum porro sit necessitatibus tenetur numquam a nesciunt, vero beatae deserunt quisquam error veritatis vitae labore maiores ea sequi. Neque voluptatum nihil, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe praesentium dolorum eveniet at, ad vel voluptas doloremque, voluptate aperiam quaerat, id debitis nam magni dolorem itaque deserunt! Eius cumque, quasi.
+							</p>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				
+			</div>
+		</div>
 	</div>
 
 
@@ -204,6 +286,78 @@
 					 <i class="fa fa-vk fa-stack-1x"></i>
 					 <i class="fa fa-ban fa-stack-2x text-danger"></i>
 				</span>
+				
+				<div class="container">
+					<div class="row">
+						<div class="btn-toolbar">
+							<div class="btn-group btn-group-lg">												
+								<a href="#" class="btn btn-info"><i class="fa fa-bath" ></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-shower" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-full" aria-hidden="true"></i></a>					
+							</div>
+							<div class="btn-group btn-group-md">		
+								<a href="#" class="btn btn-info"><i class="fa fa-bath" ></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-shower" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-full" aria-hidden="true"></i></a>											
+							</div>
+							<div class="btn-group btn-group-sm">												
+									<a href="#" class="btn btn-info"><i class="fa fa-bath" ></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-shower" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-battery-full" aria-hidden="true"></i></a>												
+							</div>
+						</div>
+						<div class="btn-toolbar">
+							<div class="btn-group btn-group-md">												
+								<a href="#" class="btn btn-info"><i class="fa fa-bath" ></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-shower" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-full" aria-hidden="true"></i></a>					
+							</div>
+							<div class="btn-group btn-group-sm">		
+								<a href="#" class="btn btn-info"><i class="fa fa-bath" ></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-shower" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+								<a href="#" class="btn btn-info"><i class="fa fa-battery-full" aria-hidden="true"></i></a>											
+							</div>
+							<div class="btn-group btn-group-xs">												
+									<a href="#" class="btn btn-info"><i class="fa fa-bath" ></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-shower" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-info"><i class="fa fa-battery-full" aria-hidden="true"></i></a>												
+							</div>
+							
+							<div class="btn-toolbar">
+								<div class="btn-group btn-group-justified ">												
+									<a href="#" class="btn btn-success"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-success"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-success"><i class="fa fa-battery-full" aria-hidden="true"></i></a>												
+								</div>
+								<br>
+							</div>	
+							<br>						
+								<div class="btn-group btn-group-vertical">												
+									<a href="#" class="btn btn-success"><i class="fa fa-battery-half" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-success"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+									<a href="#" class="btn btn-success"><i class="fa fa-battery-full" aria-hidden="true"></i></a>												
+								</div>
+							
+
+							
+							
+
+						</div>
+					</div>
+				</div>
+				
 				
 		</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto est.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto estLorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit, fugiat non debitis. Id, illum dolorem, quidem veniam fugiat ea dolorum odio officia consequuntur totam, itaque soluta optio. Voluptates, odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt odio atque nostrum mollitia modi veritatis suscipit cumque aperiam dignissimos eos vero voluptas ex, asperiores consequatur repudiandae. Soluta eius architecto est</p>
@@ -263,6 +417,7 @@
 		</div>
 
 
+
 		<nav aria-label="Page navigation">
 		  <ul class="pagination">
 		    <li>
@@ -304,10 +459,12 @@
 	</div>
 	
 
-
-
-
-
+	<div class="container-fluid">
+		
+	
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio repellat numquam quas eos nihil a ipsum libero, aperiam dolorum aspernatur et placeat architecto quam fugiat laboriosam beatae, deserunt in id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum earum quis deleniti eum itaque nobis nisi eligendi incidunt impedit modi, suscipit aliquam placeat accusamus, consectetur asperiores at consequuntur! Explicabo, velit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, velit illum blanditiis nesciunt quibusdam sunt explicabo, consectetur harum quod rerum tempore doloremque cumque expedita illo optio unde cum, repellendus similique.</p>
+	</div>
+		
 
 
 
