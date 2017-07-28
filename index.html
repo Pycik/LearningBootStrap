@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>My site</title>
-	<!-- Bootstrap core CSS -->
-	
+    <title>Bootstrap site</title>
+    <!-- images on site logo panel -->
+	<link rel="icon" href="img/favicon.png" type="image/png"/>
+	<!-- Bootstrap core CSS -->	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -23,7 +24,7 @@
 <body>
 <!-- navbar-default (Светлый цвет)(navbar-inverse Темный) -->
 <!-- navbar-fixed-top , navbar-fixed-bottom -->
-		<div class="navbar navbar-inverse navbar-static-top"> 
+		<div class="navbar navbar-inverse"> 
 
 			<div class="container">
 				<div class="navbar-header">
@@ -55,19 +56,190 @@
 						<li><a href="#">Lesson3</a></li>
 						<li><a href="#">Lesson4</a></li>
 					</ul>
+					<form action="" class="navbar-form navbar-right">
+						<div class="form-group">
+							<input class="form-control"  type="text" placeholder="E-mail" value="">
+							
+						</div>
+						<div class="form-group">
+							<input class="form-control"  type="password" placeholder="Password" value="">
+						</div>
+						<button type="submit" class="btn btn-primary" ><i class="fa fa-sign-in"></i> Sign in</button>
+					</form>
 				</div>
 			</div>
 		</div> 
+
+	<div class="row">
+		<div class="col-md-6">
+		<a href="#spoiler" data-toggle="collapse" class="btn btn-primary">Open info</a>
+			<div class="collapse " id="spoiler">
+				<div class="well ">
+					<p>Your Text here<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet praesentium officiis ullam sunt, qui odit fugit. Eaque eos adipisci perspiciatis placeat impedit repellat asperiores nesciunt odio, vitae ipsa aperiam laudantium?
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+		<a href="#spoiler2" data-toggle="collapse" class="btn btn-primary spoiler2 collapsed">Open info</a>
+			<div class="collapse " id="spoiler2">
+				<div class="well ">
+					<p>Your Text here<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet praesentium officiis ullam sunt, qui odit fugit. Eaque eos adipisci perspiciatis placeat impedit repellat asperiores nesciunt odio, vitae ipsa aperiam laudantium?
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+<br>
+<div class="row">
+	<div class="col-md-6">
+	
+	</div>
+	<div class="col-md-6">
+		
+			<div id="accordion" class="panel-group">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collapse-1" data-parent="#accordion" data-toggle="collapse">Open slide-1</a>
+					</h4>
+				</div>
+				<div id="collapse-1" class="panel-collapse collapse in">
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collapse-2" data-parent="#accordion" data-toggle="collapse">Open slide-2</a>
+					</h4>
+				</div>
+				<div id="collapse-2" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-warning">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collapse-3" data-parent="#accordion" data-toggle="collapse">Open slide-3</a>
+					</h4>
+				</div>
+				<div id="collapse-3" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!</p>
+					</div>
+				</div>
+			</div>
+
+					<div class="panel panel-danger">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collapse-4" data-parent="#accordion" data-toggle="collapse">Open slide-4</a>
+					</h4>
+				</div>
+				<div id="collapse-4" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tempore minima nostrum dolor. Fugiat velit quibusdam a recusandae neque possimus nihil expedita esse, consequatur perferendis, porro dolorum sunt natus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, debitis ipsam doloribus ducimus laboriosam suscipit ut ad laudantium modi rerum ab impedit et voluptatibus, illum tempore nihil assumenda aliquid error!</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+</div>
+
+<!-- .end slide -->
+<br>
+<!-- start modal window -->
+		    <div class="modal fade" id="modal-1">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" type="button"  data-dismiss="modal">
+										<i class="fa fa-close"></i>
+							</button>
+							<h4 class="modal-title">Name window</h4>
+								
+						</div>
+						<div class="modal-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.
+									</p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-danger" type="button" data-dismiss="modal"> Close </button>
+										
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+<!-- start modal window no fade -->
+
+			  <div class="modal " id="modal-2">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header ">
+							<button class="close" type="button"  data-dismiss="modal">
+										<i class="fa fa-close"></i>
+							</button>
+							<h4 class="modal-title">Name window</h4>
+								
+						</div>
+						<div class="modal-body ">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus cum, sint deserunt exercitationem doloribus esse temporibus odio praesentium quia natus alias sed culpa perferendis harum molestias possimus tenetur molestiae.
+									</p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-danger" type="button" data-dismiss="modal"> Close </button>
+										
+						</div>
+					</div>
+				</div>
+			</div>
+
+<!-- .end -->
+
+	<div class="row">
+		<div class="col-md-4">
+			<button class="btn btn-info" type="button" data-toggle="modal" data-target="#modal-2">Open window</button>
+		</div>
+		<div class="col-md-4">
+				<button class="btn btn-success" type="button" data-toggle="modal" data-target="#modal-1">Open window</button>
+		</div>
+		<div class="col-md-4">				
+		</div>
+	</div>
+<!--.end modal window -->
+	<br>
 			<!--Buttons start-->
 	<div>		
 		<p>
 				<a href="#" class="btn btn-default"><i class="fa fa-cog fa-spin fa-fw"></i></a>
-				<a href="#" class="btn btn-primary ">Button</a>
-				<a href="#" class="btn btn-success">Button</a>
-				<a href="#" class="btn btn-warning">Button</a>
-				<a href="#" class="btn btn-info">Button</a>
-				<a href="#" class="btn btn-danger">Button</a>
-				<a href="#" class="btn btn-link">Button</a>
+				<a href="#" class="btn btn-primary ">Button [ *primary ]</a>
+				<a href="#" class="btn btn-success">Button [ *success ]</a>
+				<a href="#" class="btn btn-warning">Button [ *warning ]</a>
+				<a href="#" class="btn btn-info">Button [ *info ]</a>
+				<a href="#" class="btn btn-danger">Button [ *danger ]</a>
+				<a href="#" class="btn btn-link">Button [ *link ]</a>
 				
 		</p>
 		<p>
