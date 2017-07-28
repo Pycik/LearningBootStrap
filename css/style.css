@@ -92,3 +92,9 @@ a.spoiler2.collapsed:after {
 a.spoiler2:after {
   content: " [-] ";
 }
+
+.nav-tabs {
+  margin-bottom: 15px;
+}
+
+
