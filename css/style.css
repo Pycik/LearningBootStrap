@@ -98,3 +98,14 @@ a.spoiler2:after {
 }
 
 
+.action {
+  
+  margin-top: -68%;
+}
+
+
+
+.breadcrumb > li + li:before {
+      content: "\f054";
+      font-family: "FontAwesome"
+}
